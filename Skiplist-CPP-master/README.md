@@ -72,27 +72,6 @@ make            // complie demo main.cpp
 ```
 sh stress_test_start.sh 
 ```
-
-# 待优化 
-
-* delete的时候没有释放内存
-* 压力测试并不是全自动的
-* 跳表的key用int型，如果使用其他类型需要自定义比较函数，当然把这块抽象出来更好
-* 如果再加上一致性协议，例如raft就构成了分布式存储，再启动一个http server就可以对外提供分布式存储服务了
-
-# 关于作者
-
-大家好，我是程序员Carl，[《代码随想录》](https://programmercarl.com/other/publish.html)作者，哈工大师兄，先后在腾讯和百度从事分布式技术研发。
-
-
-# 公众号
-
-更多精彩文章持续更新，微信搜索：「代码随想录」第一时间围观，关注后回复：666，可以获得Carl所有算法专题原创PDF。
-
-<a name="公众号"></a>
-
-<div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/20211026122841.png" data-img="1" width="650" height="500"></img></div> 
-
-
-
+![image](https://user-images.githubusercontent.com/81729830/183538273-c458031d-09c6-4e10-b8b9-d02422744191.png)
+![image](https://user-images.githubusercontent.com/81729830/183538353-35ed6f5e-6603-4578-9d07-18f1ced0bad5.png)
 
